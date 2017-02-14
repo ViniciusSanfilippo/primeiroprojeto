@@ -15,4 +15,11 @@ Route::get('/', function () {
     return view('ola');
 });
 
-Route::get('saudacao/ola','SaudacaoController@ola');
+//Route::get('saudacao/ola','SaudacaoController@ola');
+
+Route::get('/saudacao', function () {
+    return view('saudacao');
+});
+
+
+Route::get('/editoras','EditoraController@index'); //@index nome do metodo no controller

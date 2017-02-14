@@ -3,8 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>Pagina de saudacao</title>
+    <link rel="stylesheet" type="text/css" href="/css/app.css">
   </head>
   <body>
-
+    <div class="container">
+      <h1>Olá Mundo</h1>
+    </div>
+    <script type="text/javascript" src="/js/app.js">
   </body>
 </html>
